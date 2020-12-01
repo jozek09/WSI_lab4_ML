@@ -21,3 +21,7 @@ Zaimplementować algorytm regresji liniowej i zastosować go do regresji dwóch 
 **TODO**
 
 Zastosowanie walidacji krzyżowej  
+
+## Wykorzystane bilioteki
+* Pandas
+* Numpy
