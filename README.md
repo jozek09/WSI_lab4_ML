@@ -8,7 +8,7 @@ Zaimplementować algorytm regresji liniowej i zastosować go do regresji dwóch 
 
 ---
 
-**Wykorzystane sety danych**
+## Wykorzystane sety danych
 * [Auto mpg](https://archive.ics.uci.edu/ml/datasets/Auto+MPG)
 * [Cycle power plant](https://archive.ics.uci.edu/ml/datasets/Combined+Cycle+Power+Plant)
 
