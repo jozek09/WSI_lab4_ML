@@ -25,7 +25,8 @@ def take_mpg_data_set():
 def take_cycle_power_data_set():
     # read data using pandas library
     power = pd.read_excel("Folds5x2_pp.xlsx")
-    power.columns = ["Temperature", "Exhaust Vacuum", "Ambient Pressure", "Relative Humidity", "Electrical Energy"]
+    power.columns = ["Temperature", "Exhaust Vacuum", "Ambient Pressure",
+                     "Relative Humidity", "Electrical Energy"]
 
     # get x and y
     y = power.iloc[:, -1]

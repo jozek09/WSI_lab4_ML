@@ -10,18 +10,21 @@ def graph_metrics(accuracy_array, name):
     plt.xlabel('K-th cluster')
     plt.ylabel('Value of mean square error')
     plt.title(f'Mean square error for {name}')
+    plt.savefig(f'{name}-MSE.png')
     plt.show()
 
     plt.plot(np.arange(len(mae)), mae)
     plt.xlabel('K-th cluster')
     plt.ylabel('Value of mean absolute error')
     plt.title(f'Mean absolute error for {name}')
+    plt.savefig(f'{name}-MAE.png')
     plt.show()
 
     plt.plot(np.arange(len(r2)), r2)
     plt.xlabel('K-th cluster')
     plt.ylabel('Value of R square error')
     plt.title(f'R square for {name}')
+    plt.savefig(f'{name}-R2.png')
     plt.show()
 
 
